@@ -5,8 +5,15 @@
 # Установка и запуск
 Для установки и запуска проекта выполните следующие шаги:
 
-Клонируйте репозиторий:git clone https://github.com/your-username/your-repo.git
-Установите зависимости:cd your-reponpm install
+Клонируйте репозиторий:
+```bash
+git clone https://github.com/your-username/your-repo.git
+```
+
+Установите зависимости:
+```bash
+cd your-reponpm install
+```
 Запустите приложение:npm startОткройте браузер и перейдите по адресу http://localhost:3000, чтобы увидеть приложение в действии.
 # Примеры использования
 Пример компонента:
