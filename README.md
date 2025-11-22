@@ -14,10 +14,15 @@ git clone https://github.com/your-username/your-repo.git
 ```bash
 cd your-reponpm install
 ```
-Запустите приложение:npm startОткройте браузер и перейдите по адресу http://localhost:3000, чтобы увидеть приложение в действии.
+Запустите приложение:
+```bash
+npm start
+```
+Откройте браузер и перейдите по адресу http://localhost:3000, чтобы увидеть приложение в действии.
 # Примеры использования
 Пример компонента:
 
+```bash
 import React from 'react';
 
 function App() {
@@ -29,8 +34,10 @@ function App() {
 }
 
 export default App;
+```
 # Пример использования состояния:
 
+``` bash
 import React, { useState } from 'react';
 
 function Counter() {
@@ -45,15 +52,18 @@ function Counter() {
 }
 
 export default Counter;
+```
 # Структура репозитория
-src/: Исходный код приложения
-components/: Компоненты React
-App.js: Основной компонент приложения
-index.js: Точка входа в приложение
-public/: Статические файлы
-index.html: HTML-шаблон
+```
+src/:         Исходный код приложения
+components/:  Компоненты React
+App.js:       Основной компонент приложения
+index.js:     Точка входа в приложение
+public/:      Статические файлы
+index.html:   HTML-шаблон
 package.json: Файл конфигурации проекта
-README.md: Текущая документация
+README.md:    Текущая документация
+```
 # Технические требования
 Язык: JavaScript (ES6+)
 Фреймворк: React
